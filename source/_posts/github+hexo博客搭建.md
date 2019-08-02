@@ -1,6 +1,6 @@
 ---
 title: 如何搭建github博客
-data: 
+date: 2019-04-18 10:23:24
 tags: 
 	- other
 ---
@@ -21,3 +21,4 @@ tags:
 
 ## 其它
 1. 博客主题没有采用github pages提供的模板，而是采用hexo进行管理，主题选择了[litten的yilia](https://github.com/litten/hexo-theme-yilia)。感谢litten。
+2. 如果部署阶段出现如下错误：‘ERROR Deployer not found: git’，请安装npm install hexo-deployer-git --save
